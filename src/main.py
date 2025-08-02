@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile, Form
+from fastapi import FastAPI, File, UploadFile, Form, Depends
 from fastapi.responses import JSONResponse
 import shutil, os
 import numpy as np
@@ -7,11 +7,13 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-from src.utils.data_upload import save_uploaded_image
+from torch import is_tensor
+from src.utils.data_upload import save_bulk_images, save_uploaded_image, should_trigger_retraining
 from typing import List
 from src.db import SessionLocal, UploadedImage
 from sqlalchemy.orm import Session
-from src.db import SessionLocal, RetrainHistory
+from src.db import SessionLocal, RetrainHistory, engine, Base, UploadedImage
+import logging
 
 app = FastAPI()
 
@@ -21,7 +23,11 @@ async def root():
 
 # Load model at startup
 MODEL_PATH = "models/vaccine_demand_model.h5"
-CLASS_NAMES = ['low_demand','medium_demand', 'high_demand']  # adjust if you retrain with more
+CLASS_NAMES = ['low_demand','medium_demand', 'high_demand']
+
+# Configure logger
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def load_trained_model():
     return load_model(MODEL_PATH)
@@ -35,6 +41,7 @@ def prepare_image(file_path):
         img = image.load_img(file_path, target_size=(height, width))
         img_array = image.img_to_array(img)
         img_array = img_array / 255.0
+        logger.info(f"Image tensor shape: {img_array.shape}")
         return np.expand_dims(img_array, axis=0)
     except Exception as e:
         raise ValueError(f"Error processing image: {e}")
@@ -42,52 +49,102 @@ def prepare_image(file_path):
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     file_path = f"temp_{file.filename}"
-    with open(file_path, "wb") as f:
-        shutil.copyfileobj(file.file, f)
-
     try:
+        # Save uploaded file
+        with open(file_path, "wb") as f:
+            shutil.copyfileobj(file.file, f)
+
+        # Preprocess image
         img_tensor = prepare_image(file_path)
         preds = model.predict(img_tensor)
+
+        # Prediction
         predicted_class = CLASS_NAMES[np.argmax(preds)]
         confidence = float(np.max(preds))
 
+        logger.info(f"Prediction successful: {predicted_class} ({confidence:.2f})")
         return {"prediction": predicted_class, "confidence": confidence}
+
     except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        logger.error(f"Prediction failed: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)}
+        )
+
     finally:
         if os.path.exists(file_path):
-            os.remove(file_path)
+            try:
+                os.remove(file_path)
+            except Exception as cleanup_error:
+                logger.warning(f"Failed to delete temp file: {cleanup_error}")
 
 @app.post("/upload-data")
 async def upload_data(file: UploadFile = File(...), label: str = Form(...)):
-    assert label in CLASS_NAMES, f"Label must be one of: {', '.join(CLASS_NAMES)}"
-    save_dir = f"data/train/{label}"
-    os.makedirs(save_dir, exist_ok=True)
-    save_path = os.path.join(save_dir, file.filename)
+    if label not in CLASS_NAMES:
+        logger.warning(f"Invalid label received: {label}")
+        raise HTTPException(
+            status_code=400,
+            detail=f"Label must be one of: {', '.join(CLASS_NAMES)}"
+        )
 
-    with open(save_path, "wb") as f:
-        shutil.copyfileobj(file.file, f)
+    try:
+        save_dir = os.path.join("data", "train", label)
+        os.makedirs(save_dir, exist_ok=True)
 
-    # Save metadata to DB
+        save_path = os.path.join(save_dir, file.filename)
+        with open(save_path, "wb") as f:
+            shutil.copyfileobj(file.file, f)
+
+        # Save metadata to DB safely
+        db = SessionLocal()
+        try:
+            db.add(UploadedImage(filename=file.filename, label=label))
+            db.commit()
+        finally:
+            db.close()
+
+        return {"message": f"File uploaded to class '{label}'."}
+
+    except Exception as e:
+        logger.error(f"Upload failed: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Internal Server Error: {str(e)}"}
+        )
+
+# Dependency to get DB session
+def get_db():
     db = SessionLocal()
-    db.add(UploadedImage(filename=file.filename, label=label))
-    db.commit()
-    db.close()
-
-    return {"message": f"File uploaded to class '{label}'."}
+    try:
+        yield db
+    finally:
+        db.close()
 
 @app.get("/uploads")
-async def get_uploaded_data():
-    import pandas as pd
-    metadata_path = "uploads/metadata.csv"
-    if not os.path.exists(metadata_path):
+def get_uploaded_data(db: Session = Depends(get_db)):
+    records = db.query(UploadedImage).all()
+
+    if not records:
         return {"message": "No uploaded data yet."}
-    
-    df = pd.read_csv(metadata_path)
-    return df.to_dict(orient="records")
+
+    return [
+        {
+            "filename": r.filename,
+            "label": r.label,
+        }
+        for r in records
+    ]
 
 @app.post("/upload-bulk")
 async def upload_bulk(files: List[UploadFile] = File(...), labels: List[str] = Form(...)):
+    print(f"Received {len(files)} files and {len(labels)} labels")
+
+    for file in files:
+        print(f"File: {file.filename}")
+    for label in labels:
+        print(f"Label: {label}")
+
     assert len(files) == len(labels), "Each image must have a label."
 
     temp_file_paths = []
@@ -96,14 +153,16 @@ async def upload_bulk(files: List[UploadFile] = File(...), labels: List[str] = F
     try:
         for file, label in zip(files, labels):
             assert label in CLASS_NAMES, f"Invalid label: {label}"
-            temp_path = f"temp_{datetime.now().strftime('%f')}_{file.filename}"
+
+            temp_path = f"temp_{file.filename}"
             with open(temp_path, "wb") as f:
                 shutil.copyfileobj(file.file, f)
+
             temp_file_paths.append((temp_path, label))
 
-        from utils.data_upload import save_bulk_images, should_trigger_retraining
         uploaded_count = save_bulk_images(temp_file_paths, db)
 
+        # Trigger retraining if condition met
         triggered = False
         if should_trigger_retraining(db):
             await retrain_model()
@@ -198,9 +257,13 @@ async def get_history():
     history = db.query(RetrainHistory).order_by(RetrainHistory.id.desc()).all()
     db.close()
     return [
-        {"version": h.version, "timestamp": h.timestamp.isoformat(), "notes": h.notes}
+        {"version": h.version, "notes": h.notes}
         for h in history
     ]
+
+# Create the tables
+from src.db import Base
+Base.metadata.create_all(bind=engine)
 
 if __name__ == "__main__":
     import uvicorn

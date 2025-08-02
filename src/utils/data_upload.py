@@ -4,12 +4,11 @@ import pandas as pd  # Only needed if you plan to use META_FILE
 from datetime import datetime
 from sqlalchemy.orm import Session
 from fastapi import UploadFile  # <-- MISSING IMPORT!
-
 from src.db import UploadedImage
 
 UPLOAD_DIR = "uploads/"
 META_FILE = os.path.join(UPLOAD_DIR, "metadata.csv")
-RETRAIN_THRESHOLD = 50  # Number of images required to trigger retraining
+RETRAIN_THRESHOLD = 1
 
 
 def save_bulk_images(file_paths_labels, db: Session):
@@ -26,13 +25,11 @@ def save_bulk_images(file_paths_labels, db: Session):
     entries = []
 
     for file_path, label in file_paths_labels:
-        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         filename = os.path.basename(file_path)
         entries.append(
             UploadedImage(
                 filename=filename,
                 label=label,
-                timestamp=timestamp
             )
         )
 
