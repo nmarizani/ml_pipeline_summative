@@ -900,7 +900,7 @@
         "kind": 2,
         "importPath": "src.utils.data_upload",
         "description": "src.utils.data_upload",
-        "peekOfCode": "def save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.\n    \"\"\"\n    entries = []",
+        "peekOfCode": "def save_bulk_images(file_paths_labels, db: Session) -> int:\n    \"\"\"\n    Save bulk uploaded images into the database, skipping duplicates.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of new images successfully saved.\n    \"\"\"\n    entries = []",
         "detail": "src.utils.data_upload",
         "documentation": {}
     },
@@ -927,7 +927,7 @@
         "kind": 5,
         "importPath": "src.utils.data_upload",
         "description": "src.utils.data_upload",
-        "peekOfCode": "UPLOAD_DIR = \"uploads/\"\nMETA_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:",
+        "peekOfCode": "UPLOAD_DIR = \"uploads/\"\nMETA_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session) -> int:\n    \"\"\"\n    Save bulk uploaded images into the database, skipping duplicates.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:",
         "detail": "src.utils.data_upload",
         "documentation": {}
     },
@@ -936,7 +936,7 @@
         "kind": 5,
         "importPath": "src.utils.data_upload",
         "description": "src.utils.data_upload",
-        "peekOfCode": "META_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.",
+        "peekOfCode": "META_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session) -> int:\n    \"\"\"\n    Save bulk uploaded images into the database, skipping duplicates.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of new images successfully saved.",
         "detail": "src.utils.data_upload",
         "documentation": {}
     },
@@ -945,7 +945,7 @@
         "kind": 5,
         "importPath": "src.utils.data_upload",
         "description": "src.utils.data_upload",
-        "peekOfCode": "RETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.\n    \"\"\"",
+        "peekOfCode": "RETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session) -> int:\n    \"\"\"\n    Save bulk uploaded images into the database, skipping duplicates.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of new images successfully saved.\n    \"\"\"",
         "detail": "src.utils.data_upload",
         "documentation": {}
     },

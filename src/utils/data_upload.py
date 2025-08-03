@@ -11,21 +11,27 @@ META_FILE = os.path.join(UPLOAD_DIR, "metadata.csv")
 RETRAIN_THRESHOLD = 1
 
 
-def save_bulk_images(file_paths_labels, db: Session):
+def save_bulk_images(file_paths_labels, db: Session) -> int:
     """
-    Save multiple images and their metadata to the database.
+    Save bulk uploaded images into the database, skipping duplicates.
 
     Args:
         file_paths_labels (list): List of (file_path, label) tuples.
         db (Session): SQLAlchemy DB session.
 
     Returns:
-        int: Number of entries added.
+        int: Number of new images successfully saved.
     """
     entries = []
-
     for file_path, label in file_paths_labels:
         filename = os.path.basename(file_path)
+
+        # Check if the filename already exists
+        existing = db.query(UploadedImage).filter_by(filename=filename).first()
+        if existing:
+            print(f"Skipping duplicate: {filename}")
+            continue  # Skip duplicates
+
         entries.append(
             UploadedImage(
                 filename=filename,
@@ -33,8 +39,9 @@ def save_bulk_images(file_paths_labels, db: Session):
             )
         )
 
-    db.bulk_save_objects(entries)
-    db.commit()
+    if entries:  # only save if there are new entries
+        db.bulk_save_objects(entries)
+        db.commit()
 
     return len(entries)
 
