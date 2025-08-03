@@ -20,13 +20,15 @@ It integrates **data ingestion, preprocessing, model training, and retraining**,
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-``bash
+bash
+
 git https://github.com/nmarizani/ml_pipeline_summative.git
 
 ---
 
 ### 2. Create & Activate a Virtual Environment
-``bash
+bash
+
 python -m venv .venv
 source .venv/bin/activate   # On Linux/Mac
 .venv\Scripts\activate      # On Windows
@@ -34,39 +36,26 @@ source .venv/bin/activate   # On Linux/Mac
 ---
 
 ### 3. Install Dependencies
-``bash
+bash
+
 pip install --upgrade pip
 pip install -r requirements.txt
 
 ---
 
 4. Run the FastAPI Application
-``bash
+bash
+
 uvicorn src.main:app --host 127.0.0.1 --port 8000
 Access the app documentation at: http://localhost:8000/docs
 
 ---
 
 ### 5. Running the Locust Flood Request Simulation
-``bash
+bash
+
 locust -f src/locustfile.py --host=http://localhost:8000
 Then open http://localhost:8089 in your browser to start the simulation.
-
----
-
-### 6. Project Structure
-├── data/                 # Dataset for training/testing
-│   ├── train/
-│   └── test/
-├── models/               # Saved ML models
-├── src/                  # Source code
-│   ├── locustfile.py     # Locust load testing script
-│   ├── preprocessing.py  # Data preprocessing utilities
-│   ├── train.py          # Training pipeline
-│   └── utils.py          # Helper functions
-├── main.py               # FastAPI backend entry point
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
 
 ---
 
