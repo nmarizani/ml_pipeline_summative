@@ -1241,7 +1241,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "API_URL = \"https://vaccinedemand-api.onrender.com\"\nCLASS_NAMES = [\"low_demand\", \"medium_demand\", \"high_demand\"]\nst.set_page_config(page_title=\"AfroAI Vaccine Demand Predictor\", layout=\"wide\")\nst.sidebar.title(\"Navigation\")\nmenu = st.sidebar.radio(\"Go to\", [\"Status\", \"Predict Image\", \"Upload Data\", \"Retrain\", \"Retrain History\", \"Insights\"])\n# Server Status\nif menu == \"Status\":\n    st.title(\"Model & Server Status\")\n    try:\n        response = requests.get(f\"{API_URL}/\")",
+        "peekOfCode": "API_URL = \"https://vaccine-demand-ml-api.onrender.com\"\nCLASS_NAMES = [\"low_demand\", \"medium_demand\", \"high_demand\"]\nst.set_page_config(page_title=\"AfroAI Vaccine Demand Predictor\", layout=\"wide\")\nst.sidebar.title(\"Navigation\")\nmenu = st.sidebar.radio(\"Go to\", [\"Status\", \"Predict Image\", \"Upload Data\", \"Retrain\", \"Retrain History\", \"Insights\"])\n# Server Status\nif menu == \"Status\":\n    st.title(\"Model & Server Status\")\n    try:\n        response = requests.get(f\"{API_URL}/\")",
         "detail": "app",
         "documentation": {}
     },

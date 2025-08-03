@@ -4,7 +4,7 @@ import os
 from PIL import Image
 import pandas as pd
 
-API_URL = "https://vaccinedemand-api.onrender.com"
+API_URL = "https://vaccine-demand-ml-api.onrender.com"
 CLASS_NAMES = ["low_demand", "medium_demand", "high_demand"]
 
 st.set_page_config(page_title="AfroAI Vaccine Demand Predictor", layout="wide")

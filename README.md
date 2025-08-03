@@ -4,14 +4,16 @@
 The Vaccine Demand Prediction Project is designed to predict vaccine demand across categories such as **high demand**, **medium demand** and **low demand** using a machine learning pipeline. This is to aid in local production of vaccines for high demand areas. 
 It integrates **data ingestion, preprocessing, model training, and retraining**, supported by a **FastAPI backend** and evaluated under stress using **Locust flood request simulations**.  
 
+**Github Repository URL:** []
+
 ## Demo Video
 **Watch the Demo on YouTube:**[]
 
 ---
 
 ## Live URLs
-- **FastAPI URL** [https://vaccinedemand-api.onrender.com] 
-- **FastAPI URL docs** [https://vaccinedemand-api.onrender.com/docs] 
+- **FastAPI URL** [https://vaccine-demand-ml-api.onrender.com] 
+- **FastAPI URL docs** [https://vaccine-demand-ml-api.onrender.com/docs] 
 - **Locust Load Testing Dashboard:** [http://localhost:8089](http://localhost:8089)
 - **Streamlit UI URL** []
 
