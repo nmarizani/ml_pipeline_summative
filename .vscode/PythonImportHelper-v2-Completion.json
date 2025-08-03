@@ -1,0 +1,1258 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedImage",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedImage",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "RetrainHistory",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedImage",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Sequential",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Conv2D",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPooling2D",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dropout",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Conv2D",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "MaxPooling2D",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Adam",
+        "importPath": "tensorflow.keras.optimizers",
+        "description": "tensorflow.keras.optimizers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.optimizers",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "load_img",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "img_to_array",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDataGenerator",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_input",
+        "importPath": "tensorflow.keras.applications.imagenet_utils",
+        "description": "tensorflow.keras.applications.imagenet_utils",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.applications.imagenet_utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_trained_model",
+        "importPath": "utils.model",
+        "description": "utils.model",
+        "isExtraImport": true,
+        "detail": "utils.model",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUser",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "task",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "between",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "shutil,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil.",
+        "description": "shutil.",
+        "detail": "shutil.",
+        "documentation": {}
+    },
+    {
+        "label": "image",
+        "importPath": "tensorflow.keras.preprocessing",
+        "description": "tensorflow.keras.preprocessing",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "is_tensor",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "save_bulk_images",
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "isExtraImport": true,
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "save_uploaded_image",
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "isExtraImport": true,
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "should_trigger_retraining",
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "isExtraImport": true,
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "save_bulk_images",
+        "kind": 2,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "def save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.\n    \"\"\"\n    entries = []",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "should_trigger_retraining",
+        "kind": 2,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "def should_trigger_retraining(db: Session) -> bool:\n    \"\"\"\n    Check if the retraining threshold has been met.\n    Args:\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        bool: True if retraining should be triggered.\n    \"\"\"\n    count = db.query(UploadedImage).count()\n    return count > 0 and count % RETRAIN_THRESHOLD == 0",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "save_uploaded_image",
+        "kind": 2,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "def save_uploaded_image(file: UploadFile, upload_dir=\"data/uploads\") -> str:\n    \"\"\"\n    Save a single uploaded file to disk.\n    Args:\n        file (UploadFile): File to save.\n        upload_dir (str): Directory to store files.\n    Returns:\n        str: Path where file was saved.\n    \"\"\"\n    os.makedirs(upload_dir, exist_ok=True)",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "UPLOAD_DIR = \"uploads/\"\nMETA_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "META_FILE",
+        "kind": 5,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "META_FILE = os.path.join(UPLOAD_DIR, \"metadata.csv\")\nRETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "RETRAIN_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.utils.data_upload",
+        "description": "src.utils.data_upload",
+        "peekOfCode": "RETRAIN_THRESHOLD = 1\ndef save_bulk_images(file_paths_labels, db: Session):\n    \"\"\"\n    Save multiple images and their metadata to the database.\n    Args:\n        file_paths_labels (list): List of (file_path, label) tuples.\n        db (Session): SQLAlchemy DB session.\n    Returns:\n        int: Number of entries added.\n    \"\"\"",
+        "detail": "src.utils.data_upload",
+        "documentation": {}
+    },
+    {
+        "label": "build_model",
+        "kind": 2,
+        "importPath": "src.utils.model",
+        "description": "src.utils.model",
+        "peekOfCode": "def build_model(input_shape=(64, 64, 3), num_classes=2):\n    model = Sequential([\n        Conv2D(32, (3,3), activation='relu', input_shape=input_shape),\n        MaxPooling2D(2, 2),\n        Dropout(0.25),\n        Conv2D(64, (3,3), activation='relu'),\n        MaxPooling2D(2, 2),\n        Dropout(0.25),\n        Flatten(),\n        Dense(128, activation='relu'),",
+        "detail": "src.utils.model",
+        "documentation": {}
+    },
+    {
+        "label": "save_model",
+        "kind": 2,
+        "importPath": "src.utils.model",
+        "description": "src.utils.model",
+        "peekOfCode": "def save_model(model, path=MODEL_PATH):\n    model.save(path)\ndef load_trained_model(path=MODEL_PATH):\n    return load_model(path)",
+        "detail": "src.utils.model",
+        "documentation": {}
+    },
+    {
+        "label": "load_trained_model",
+        "kind": 2,
+        "importPath": "src.utils.model",
+        "description": "src.utils.model",
+        "peekOfCode": "def load_trained_model(path=MODEL_PATH):\n    return load_model(path)",
+        "detail": "src.utils.model",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "src.utils.model",
+        "description": "src.utils.model",
+        "peekOfCode": "MODEL_PATH = os.path.join(\"models\", \"vaccine_demand_model.h5\")\ndef build_model(input_shape=(64, 64, 3), num_classes=2):\n    model = Sequential([\n        Conv2D(32, (3,3), activation='relu', input_shape=input_shape),\n        MaxPooling2D(2, 2),\n        Dropout(0.25),\n        Conv2D(64, (3,3), activation='relu'),\n        MaxPooling2D(2, 2),\n        Dropout(0.25),\n        Flatten(),",
+        "detail": "src.utils.model",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_image",
+        "kind": 2,
+        "importPath": "src.utils.prediction",
+        "description": "src.utils.prediction",
+        "peekOfCode": "def prepare_image(image_path):\n    image = load_img(image_path, target_size=IMAGE_SIZE)\n    image = img_to_array(image)\n    image = image / 255.0\n    image = np.expand_dims(image, axis=0)\n    return image\ndef predict_image(image_path):\n    model = load_trained_model()\n    image = prepare_image(image_path)\n    prediction = model.predict(image)",
+        "detail": "src.utils.prediction",
+        "documentation": {}
+    },
+    {
+        "label": "predict_image",
+        "kind": 2,
+        "importPath": "src.utils.prediction",
+        "description": "src.utils.prediction",
+        "peekOfCode": "def predict_image(image_path):\n    model = load_trained_model()\n    image = prepare_image(image_path)\n    prediction = model.predict(image)\n    predicted_index = np.argmax(prediction)\n    predicted_label = CLASSES[predicted_index]\n    confidence = float(np.max(prediction))\n    return predicted_label, confidence",
+        "detail": "src.utils.prediction",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_SIZE",
+        "kind": 5,
+        "importPath": "src.utils.prediction",
+        "description": "src.utils.prediction",
+        "peekOfCode": "IMAGE_SIZE = (64, 64)\nCLASSES = ['high_demand', 'medium_demand', 'low_demand']\ndef prepare_image(image_path):\n    image = load_img(image_path, target_size=IMAGE_SIZE)\n    image = img_to_array(image)\n    image = image / 255.0\n    image = np.expand_dims(image, axis=0)\n    return image\ndef predict_image(image_path):\n    model = load_trained_model()",
+        "detail": "src.utils.prediction",
+        "documentation": {}
+    },
+    {
+        "label": "CLASSES",
+        "kind": 5,
+        "importPath": "src.utils.prediction",
+        "description": "src.utils.prediction",
+        "peekOfCode": "CLASSES = ['high_demand', 'medium_demand', 'low_demand']\ndef prepare_image(image_path):\n    image = load_img(image_path, target_size=IMAGE_SIZE)\n    image = img_to_array(image)\n    image = image / 255.0\n    image = np.expand_dims(image, axis=0)\n    return image\ndef predict_image(image_path):\n    model = load_trained_model()\n    image = prepare_image(image_path)",
+        "detail": "src.utils.prediction",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_image",
+        "kind": 2,
+        "importPath": "src.utils.preprocessing",
+        "description": "src.utils.preprocessing",
+        "peekOfCode": "def preprocess_image(image, target_size=(64, 64)):\n    image = image.convert(\"RGB\")\n    image = image.resize(target_size)\n    image_array = np.array(image) / 255.0\n    image_array = image_array.reshape((1, *target_size, 3))\n    return image_array",
+        "detail": "src.utils.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "log_retrain_history",
+        "kind": 2,
+        "importPath": "src.utils.retrain",
+        "description": "src.utils.retrain",
+        "peekOfCode": "def log_retrain_history(history, model_version):\n    log_entry = {\n        \"timestamp\": datetime.now().isoformat(),\n        \"model_version\": model_version,\n        \"train_accuracy\": history.history['accuracy'][-1],\n        \"val_accuracy\": history.history['val_accuracy'][-1]\n    }\n    if os.path.exists(RETRAIN_LOG):\n        with open(RETRAIN_LOG, \"r\") as f:\n            logs = json.load(f)",
+        "detail": "src.utils.retrain",
+        "documentation": {}
+    },
+    {
+        "label": "get_next_model_version",
+        "kind": 2,
+        "importPath": "src.utils.retrain",
+        "description": "src.utils.retrain",
+        "peekOfCode": "def get_next_model_version():\n    existing = [f for f in os.listdir(\"models\") if f.startswith(\"model_v\") and f.endswith(\".h5\")]\n    versions = [int(f.split(\"_v\")[1].split(\".\")[0]) for f in existing if \"_v\" in f]\n    return max(versions) + 1 if versions else 1\ndef save_model(model, model_version):\n    model.save(f\"models/model_v{model_version}.h5\")",
+        "detail": "src.utils.retrain",
+        "documentation": {}
+    },
+    {
+        "label": "save_model",
+        "kind": 2,
+        "importPath": "src.utils.retrain",
+        "description": "src.utils.retrain",
+        "peekOfCode": "def save_model(model, model_version):\n    model.save(f\"models/model_v{model_version}.h5\")",
+        "detail": "src.utils.retrain",
+        "documentation": {}
+    },
+    {
+        "label": "RETRAIN_LOG",
+        "kind": 5,
+        "importPath": "src.utils.retrain",
+        "description": "src.utils.retrain",
+        "peekOfCode": "RETRAIN_LOG = \"retrain_history.json\"\ndef log_retrain_history(history, model_version):\n    log_entry = {\n        \"timestamp\": datetime.now().isoformat(),\n        \"model_version\": model_version,\n        \"train_accuracy\": history.history['accuracy'][-1],\n        \"val_accuracy\": history.history['val_accuracy'][-1]\n    }\n    if os.path.exists(RETRAIN_LOG):\n        with open(RETRAIN_LOG, \"r\") as f:",
+        "detail": "src.utils.retrain",
+        "documentation": {}
+    },
+    {
+        "label": "UploadedImage",
+        "kind": 6,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "class UploadedImage(Base):\n    __tablename__ = \"uploaded_images\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String, unique=True, nullable=False)\n    label = Column(String, nullable=False)\nclass RetrainHistory(Base):\n    __tablename__ = \"retrain_history\"\n    id = Column(Integer, primary_key=True, index=True)\n    version = Column(String, unique=True, nullable=False)\n    notes = Column(String)",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "RetrainHistory",
+        "kind": 6,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "class RetrainHistory(Base):\n    __tablename__ = \"retrain_history\"\n    id = Column(Integer, primary_key=True, index=True)\n    version = Column(String, unique=True, nullable=False)\n    notes = Column(String)",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./vaccine_data.db\"  # local file\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nclass UploadedImage(Base):\n    __tablename__ = \"uploaded_images\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String, unique=True, nullable=False)\n    label = Column(String, nullable=False)\nclass RetrainHistory(Base):",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nclass UploadedImage(Base):\n    __tablename__ = \"uploaded_images\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String, unique=True, nullable=False)\n    label = Column(String, nullable=False)\nclass RetrainHistory(Base):\n    __tablename__ = \"retrain_history\"",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nclass UploadedImage(Base):\n    __tablename__ = \"uploaded_images\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String, unique=True, nullable=False)\n    label = Column(String, nullable=False)\nclass RetrainHistory(Base):\n    __tablename__ = \"retrain_history\"\n    id = Column(Integer, primary_key=True, index=True)",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "src.db",
+        "description": "src.db",
+        "peekOfCode": "Base = declarative_base()\nclass UploadedImage(Base):\n    __tablename__ = \"uploaded_images\"\n    id = Column(Integer, primary_key=True, index=True)\n    filename = Column(String, unique=True, nullable=False)\n    label = Column(String, nullable=False)\nclass RetrainHistory(Base):\n    __tablename__ = \"retrain_history\"\n    id = Column(Integer, primary_key=True, index=True)\n    version = Column(String, unique=True, nullable=False)",
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "UploadUser",
+        "kind": 6,
+        "importPath": "src.locustfile",
+        "description": "src.locustfile",
+        "peekOfCode": "class UploadUser(HttpUser):\n    wait_time = between(1, 2)\n    @task\n    def upload_bulk_images(self):\n        image_folder = \"../data/test/high_demand\"\n        file_tuples = []\n        label_list = []\n        for idx, fname in enumerate(os.listdir(image_folder)[:5]):\n            file_path = os.path.join(image_folder, fname)\n            file_tuples.append(",
+        "detail": "src.locustfile",
+        "documentation": {}
+    },
+    {
+        "label": "load_trained_model",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def load_trained_model():\n    return load_model(MODEL_PATH)\nmodel = load_trained_model()\ndef prepare_image(file_path):\n    try:\n        # Automatically get model input shape (ignoring batch dimension)\n        _, height, width, channels = model.input_shape\n        img = image.load_img(file_path, target_size=(height, width))\n        img_array = image.img_to_array(img)\n        img_array = img_array / 255.0",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_image",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def prepare_image(file_path):\n    try:\n        # Automatically get model input shape (ignoring batch dimension)\n        _, height, width, channels = model.input_shape\n        img = image.load_img(file_path, target_size=(height, width))\n        img_array = image.img_to_array(img)\n        img_array = img_array / 255.0\n        logger.info(f\"Image tensor shape: {img_array.shape}\")\n        return np.expand_dims(img_array, axis=0)\n    except Exception as e:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/uploads\")\ndef get_uploaded_data(db: Session = Depends(get_db)):\n    records = db.query(UploadedImage).all()\n    if not records:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_uploaded_data",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def get_uploaded_data(db: Session = Depends(get_db)):\n    records = db.query(UploadedImage).all()\n    if not records:\n        return {\"message\": \"No uploaded data yet.\"}\n    return [\n        {\n            \"filename\": r.filename,\n            \"label\": r.label,\n        }\n        for r in records",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_next_model_version",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def get_next_model_version():\n    db = SessionLocal()\n    latest = db.query(RetrainHistory).order_by(RetrainHistory.id.desc()).first()\n    db.close()\n    if latest:\n        return int(latest.version.replace(\"v\", \"\")) + 1\n    return 1\ndef log_retrain_history(version: int, history_obj: dict):\n    db: Session = SessionLocal()\n    try:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "log_retrain_history",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def log_retrain_history(version: int, history_obj: dict):\n    db: Session = SessionLocal()\n    try:\n        accuracy = history_obj.get(\"accuracy\", [None])[-1]\n        notes = f\"Accuracy after retrain: {accuracy:.4f}\" if accuracy else \"Retrained\"\n        entry = RetrainHistory(\n            version=f\"v{version}\",\n            notes=notes\n        )\n        db.add(entry)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\nasync def root():\n    return {\"Vaccine Demand Prediction API is running\"}\n# Load model at startup\nMODEL_PATH = \"models/vaccine_demand_model.h5\"\nCLASS_NAMES = ['low_demand','medium_demand', 'high_demand']\n# Configure logger\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "MODEL_PATH = \"models/vaccine_demand_model.h5\"\nCLASS_NAMES = ['low_demand','medium_demand', 'high_demand']\n# Configure logger\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\ndef load_trained_model():\n    return load_model(MODEL_PATH)\nmodel = load_trained_model()\ndef prepare_image(file_path):\n    try:",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "CLASS_NAMES = ['low_demand','medium_demand', 'high_demand']\n# Configure logger\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\ndef load_trained_model():\n    return load_model(MODEL_PATH)\nmodel = load_trained_model()\ndef prepare_image(file_path):\n    try:\n        # Automatically get model input shape (ignoring batch dimension)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef load_trained_model():\n    return load_model(MODEL_PATH)\nmodel = load_trained_model()\ndef prepare_image(file_path):\n    try:\n        # Automatically get model input shape (ignoring batch dimension)\n        _, height, width, channels = model.input_shape\n        img = image.load_img(file_path, target_size=(height, width))\n        img_array = image.img_to_array(img)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "model = load_trained_model()\ndef prepare_image(file_path):\n    try:\n        # Automatically get model input shape (ignoring batch dimension)\n        _, height, width, channels = model.input_shape\n        img = image.load_img(file_path, target_size=(height, width))\n        img_array = image.img_to_array(img)\n        img_array = img_array / 255.0\n        logger.info(f\"Image tensor shape: {img_array.shape}\")\n        return np.expand_dims(img_array, axis=0)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "API_URL",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "API_URL = \"http://127.0.0.1:8000\"\nCLASS_NAMES = [\"low_demand\", \"medium_demand\", \"high_demand\"]\nst.set_page_config(page_title=\"AfroAI Vaccine Demand Predictor\", layout=\"wide\")\nst.sidebar.title(\"Navigation\")\nmenu = st.sidebar.radio(\"Go to\", [\"Status\", \"Predict Image\", \"Upload Data\", \"Retrain\", \"Retrain History\", \"Insights\"])\n# Server Status\nif menu == \"Status\":\n    st.title(\"Model & Server Status\")\n    try:\n        response = requests.get(f\"{API_URL}/\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "CLASS_NAMES = [\"low_demand\", \"medium_demand\", \"high_demand\"]\nst.set_page_config(page_title=\"AfroAI Vaccine Demand Predictor\", layout=\"wide\")\nst.sidebar.title(\"Navigation\")\nmenu = st.sidebar.radio(\"Go to\", [\"Status\", \"Predict Image\", \"Upload Data\", \"Retrain\", \"Retrain History\", \"Insights\"])\n# Server Status\nif menu == \"Status\":\n    st.title(\"Model & Server Status\")\n    try:\n        response = requests.get(f\"{API_URL}/\")\n        if response.status_code == 200:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "menu = st.sidebar.radio(\"Go to\", [\"Status\", \"Predict Image\", \"Upload Data\", \"Retrain\", \"Retrain History\", \"Insights\"])\n# Server Status\nif menu == \"Status\":\n    st.title(\"Model & Server Status\")\n    try:\n        response = requests.get(f\"{API_URL}/\")\n        if response.status_code == 200:\n            st.success(\"API is running!\")\n            st.json(response.json())\n        else:",
+        "detail": "app",
+        "documentation": {}
+    }
+]

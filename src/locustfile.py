@@ -6,7 +6,7 @@ class UploadUser(HttpUser):
 
     @task
     def upload_bulk_images(self):
-        image_folder = "../data/test/low_demand"
+        image_folder = "../data/test/high_demand"
         file_tuples = []
         label_list = []
 
