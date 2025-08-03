@@ -599,6 +599,14 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "streamlit",
         "kind": 6,
         "isExtraImport": true,

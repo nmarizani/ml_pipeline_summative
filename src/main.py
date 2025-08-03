@@ -14,6 +14,7 @@ from src.db import SessionLocal, UploadedImage
 from sqlalchemy.orm import Session
 from src.db import SessionLocal, RetrainHistory, engine, Base, UploadedImage
 import logging
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
@@ -45,6 +46,14 @@ def prepare_image(file_path):
         return np.expand_dims(img_array, axis=0)
     except Exception as e:
         raise ValueError(f"Error processing image: {e}")
+    
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)    
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
