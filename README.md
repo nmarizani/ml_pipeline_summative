@@ -9,9 +9,11 @@ It integrates **data ingestion, preprocessing, model training, and retraining**,
 
 ---
 
-## 🌐 Live URLs
-- **FastAPI Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)  
+## Live URLs
+- **FastAPI URL** [https://vaccinedemand-api.onrender.com] 
+- **FastAPI URL docs** [https://vaccinedemand-api.onrender.com/docs] 
 - **Locust Load Testing Dashboard:** [http://localhost:8089](http://localhost:8089)
+- **Streamlit UI URL** []
 
 ---
 
